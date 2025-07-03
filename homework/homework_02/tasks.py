@@ -3,7 +3,7 @@ print("===Task 1===")
 
 price = 3
 balance = 27
-count = balance / price
+count = balance // price
 print("Вы можете купить конфет: ", count, " (шт.)")
 
 print("============\n")
