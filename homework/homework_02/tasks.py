@@ -17,8 +17,10 @@ candy_count = 7
 ice_count = 3
 candy_sum = candy_price * candy_count
 ice_sum = ice_price * ice_count
+total_sum = candy_sum + ice_sum
 print("Мороженное:", ice_count,"шт. по", ice_price, "у.е - необходимо", ice_sum, "у.е")
 print("Конфеты:", candy_count,"шт. по", candy_price, "у.е - необходимо", candy_sum, "у.е")
+print("Всего необходимо:", total_sum, "у.е")
 
 print("============\n")
 
@@ -32,13 +34,13 @@ coockie_price_usd = 3.25
 coockie_price_euro = coockie_price_usd / rate_euro_usd
 coockie_need = 0.5
 
-vafli_price_usd = 4.4
-vafli_price_euro = vafli_price_usd / rate_euro_usd
-vafli_need = 1.5
+waffles_price_usd = 4.4
+waffles_price_euro = waffles_price_usd / rate_euro_usd
+waffles_need = 1.5
 
 coockie_sum = coockie_price_euro * coockie_need
-vafli_sum = vafli_price_euro * vafli_need
-balance_euro = balance_euro - coockie_sum - vafli_sum
+waffles_sum = waffles_price_euro * waffles_need
+balance_euro = balance_euro - coockie_sum - waffles_sum
 print("€", balance_euro)
 
 print("============\n")
