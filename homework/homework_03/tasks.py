@@ -35,9 +35,9 @@ print("==== Task 3 ====")
 
 rate_euro_usd = 1.09
 balance_usd = 1000
-deposit_rate = 0.05
+deposit_rate = 5
 
-income_netto_usd = balance_usd * pow((1 + deposit_rate), 3) - balance_usd
+income_netto_usd = balance_usd * pow((1 + deposit_rate/100), 3) - balance_usd
 income_netto_euro = income_netto_usd / rate_euro_usd
 print("Чистый доход:")
 print("$", income_netto_usd)
