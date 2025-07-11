@@ -6,8 +6,9 @@
 # Вызовите функцию и выведите результат её работы на экран таким образом – «Нужно ли сегодня идти на работу? – True/False».
 
 def need_working(is_working_day, is_vacation):
-    resalt = is_working_day and not(is_vacation)
+    resalt = is_working_day and not is_vacation
     return resalt
+
 
 is_working_day = True
 is_vacation = True
