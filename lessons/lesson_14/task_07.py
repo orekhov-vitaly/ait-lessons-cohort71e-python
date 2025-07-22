@@ -1,0 +1,18 @@
+# Есть список чисел - [15, 8, 94, 3, 10, 45, 6]
+# Напишите программу, которая определяет минимальное значение
+# из списка и выводит его в консоль, пользуясь встроенными функциями
+
+numbers = [15, 8, 94, 3, 10, 45, 6]
+
+print("Min value:", min(numbers))
+print("Max value:", max(numbers))
+
+print("=====")
+
+min = numbers[0]
+
+for number in numbers:
+    if number < min:
+        min = number
+
+print(min)
